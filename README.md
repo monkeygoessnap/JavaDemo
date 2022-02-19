@@ -1,8 +1,8 @@
 # Java Code Demos
 
 ## Java Socket Demo
-Example code to demo TCP connection between two client.
-- Need to change to multiple clients (eg. multithread)
+Example code to demo TCP connection between clients.
+- changed to multiclients support
 
 ## Sqlite Demo
 Example code to demo connection to SQLite (embedded database)
