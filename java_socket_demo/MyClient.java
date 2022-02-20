@@ -12,7 +12,7 @@ public class MyClient
             Scanner scn = new Scanner(System.in);
               
             // getting localhost ip
-            InetAddress ip = InetAddress.getByName("localhost");
+            InetAddress ip = InetAddress.getByName("raspberrypi.local");
       
             // establish the connection with server port 3333
             Socket s = new Socket(ip, 3333);
@@ -32,7 +32,7 @@ public class MyClient
                   
                 // If client sends exit,close this connection 
                 // and then break from the while loop
-                if(tosend.equals("Exit"))
+                if(tosend.equals("6"))
                 {
                     System.out.println("Closing this connection : " + s);
                     s.close();
