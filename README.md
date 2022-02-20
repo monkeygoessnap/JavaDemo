@@ -1,5 +1,8 @@
 # Java Code Demos
 
+## JavaProject (Javaproject demo)
+Cd to folder for readme
+
 ## Java Socket Demo
 Example code to demo TCP connection between clients.
 - changed to multiclients support
