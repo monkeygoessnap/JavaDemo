@@ -10,4 +10,4 @@
 - Can only run if your device and Rpi connected to the same Wifi
 
 ## How to get directory tree
-```On windows (in your targeted directory) type in: tree /a /f >DirectoryTree.txt
+```On windows (in your targeted directory) type in: tree /a /f >DirectoryTree.txt```
